@@ -1,3 +1,10 @@
+表格提交中文乱码问题解决：打开tomcat_path/conf/server.xml，修改行
+```xml
+<Connector port="8080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443"
+               URIEncoding="UTF-8"/>
+```
 本项目从 https://github.com/saysky/ForestBlog 导入，只为方便学习，修改。感谢，已奉上星一颗  <br />
 以下为项目原始内容 <br />
 <hr />
