@@ -212,12 +212,20 @@
     <finalName>ForestBlog</finalName>
     <resources>
       <resource>
-        <directory>src/main/java</directory>
+        <directory>src/main/resources</directory>
         <includes>
           <include>**/*.properties</include>
           <include>**/*.xml</include>
+          <include>*.properties</include>
         </includes>
         <filtering>true</filtering>
+      </resource>
+
+      <resource>
+        <directory>src/main/java</directory>
+        <includes>
+          <include>**/*.xml</include>
+        </includes>
       </resource>
     </resources>
 

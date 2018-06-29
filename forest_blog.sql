@@ -1,3 +1,7 @@
+CREATE DATABASE IF NOT EXISTS forest_blog DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
+
+use forest_blog;
+
 /*
  Navicat Premium Data Transfer
 

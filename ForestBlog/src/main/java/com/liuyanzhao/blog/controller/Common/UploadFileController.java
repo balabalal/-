@@ -25,7 +25,7 @@ public class UploadFileController {
 
         //本地使用,上传位置
         //String rootPath ="/Users/liuyanzhao/Documents/uploads/";
-        String rootPath ="/www/uploads/";
+        String rootPath ="/Users/wuzhe/IdeaProjects/ForestBlog/uploads/";
 
         //文件的完整名称,如spring.jpeg
         String filename = file.getOriginalFilename();
